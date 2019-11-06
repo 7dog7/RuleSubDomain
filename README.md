@@ -7,6 +7,27 @@
 字典需要自己精简优化处理(随便弄了一个)  
 这玩意自己用来爆破资产后台,有需求就精简出来了  
 
+domain.txt 填入home.qq.com  
+
+根据规则:  
+
+ >'{domain}{sub}'  
+ >'{sub}{rule}{domain}'  
+ >'{domain}{rule}{sub}'  
+ >'{domain}.{sub}'  
+ >'{sub}.{domain}'  
+ 
+生成出:  
+
+>admhome.qq.com  
+>homeadm.qq.com  
+>adm.home.qq.com  
+>home.adm.qq.com  
+>adm-home.qq.com  
+>home-adm.qq.com  
+>adm_home.qq.com  
+>home_adm.qq.com  
+
 有问题和需求请Issues  
 
 ## 使用
