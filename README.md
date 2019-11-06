@@ -12,6 +12,7 @@ domain.txt 填入home.qq.com
 根据规则:  
 
  >'{domain}{sub}'  
+ >'{sub}{domain}'    
  >'{sub}{rule}{domain}'  
  >'{domain}{rule}{sub}'  
  >'{domain}.{sub}'  
