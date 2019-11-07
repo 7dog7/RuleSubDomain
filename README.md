@@ -20,14 +20,14 @@ domain.txt 填入home.qq.com
  
 生成出:  
 
->admhome.qq.com  
->homeadm.qq.com  
->adm.home.qq.com  
->home.adm.qq.com  
->adm-home.qq.com  
->home-adm.qq.com  
->adm_home.qq.com  
->home_adm.qq.com  
+>admhome    
+>homeadm   
+>adm.home  
+>home.adm   
+>adm-home  
+>home-adm  
+>adm_home  
+>home_adm    
 
 有问题和需求请Issues  
 
