@@ -40,7 +40,8 @@ if __name__ == '__main__':
             domainList.add(domain)
 
     for i in domainList:
-        main(i[:i.rfind(".", 0, i.rfind('.'))], lines)
+        if i.strip():
+            main(i[:i.rfind(".", 0, i.rfind('.'))], lines)
     with open(r'ruleSub.txt', 'w') as ff:
         for i in lines:
             ff.write(i + '\n')
